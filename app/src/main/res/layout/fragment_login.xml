@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xtalker.manprotest.Login"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="Sign In"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:layout_below="@+id/layout_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="text"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPw"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/edEmail"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edPw"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_below="@+id/tvPw"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_signup"
+        android:orientation="horizontal"
+        android:layout_marginTop="41dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPw"
+
+            android:textStyle="bold"
+            android:clickable="true"
+            android:text="Don't have account? " />
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPw"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:textColor="#0000ff"
+            android:text="Click Here" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

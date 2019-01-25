@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/listwisata"
+            android:icon="@drawable/ic_menu_list"
+            android:title="List Museum" />
+        <item
+            android:id="@+id/nearme"
+            android:icon="@drawable/ic_menu_location"
+            android:title="Near Me" />
+        <!--<item-->
+            <!--android:id="@+id/news"-->
+            <!--android:icon="@drawable/ic_menu_news"-->
+            <!--android:title="News" />-->
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/ic_menu_event"
+            android:title="Event" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_info"
+            android:title="About Us" />
+    </group>
+
+
+
+</menu>
